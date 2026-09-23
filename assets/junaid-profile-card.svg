@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f">
+        <animate attributeName="stop-color" values="#07111f;#0b2a5b;#07111f" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#123b7a">
+        <animate attributeName="stop-color" values="#123b7a;#0e7490;#123b7a" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#6d28d9">
+        <animate attributeName="stop-color" values="#6d28d9;#2563eb;#6d28d9" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="516" height="356" rx="28" fill="url(#bg)" stroke="#38bdf8" stroke-width="2"/>
+
+  <circle cx="60" cy="68" r="8" fill="#22d3ee">
+    <animate attributeName="cy" values="68;48;68" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="454" cy="86" r="6" fill="#a78bfa">
+    <animate attributeName="cx" values="454;432;454" dur="4.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="292" r="7" fill="#34d399">
+    <animate attributeName="cy" values="292;274;292" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="260" y="82" fill="#ffffff" font-size="42" font-family="Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="middle" filter="url(#glow)">JUNAID</text>
+  <text x="260" y="114" fill="#67e8f9" font-size="16" font-family="Consolas, monospace" text-anchor="middle">STUDENT • DEVELOPER • BUILDER</text>
+
+  <rect x="54" y="145" width="412" height="118" rx="18" fill="#07111f" fill-opacity="0.70" stroke="#334155"/>
+  <text x="78" y="176" fill="#94a3b8" font-size="14" font-family="Consolas, monospace">const future = {</text>
+  <text x="95" y="202" fill="#38bdf8" font-size="14" font-family="Consolas, monospace">project: "JuniCore",</text>
+  <text x="95" y="226" fill="#4ade80" font-size="14" font-family="Consolas, monospace">stack: "React + Node.js",</text>
+  <text x="95" y="250" fill="#c084fc" font-size="14" font-family="Consolas, monospace">next: "AI + Cyber Security"</text>
+  <text x="78" y="276" fill="#94a3b8" font-size="14" font-family="Consolas, monospace">};</text>
+
+  <text x="260" y="316" fill="#ffffff" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle">Building JuniCore 🚀</text>
+  <text x="260" y="341" fill="#cbd5e1" font-size="13" font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">Build • Learn • Improve • Repeat</text>
+</svg>
