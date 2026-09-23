@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#050816"><animate attributeName="stop-color" values="#050816;#0b1f3a;#050816" dur="8s" repeatCount="indefinite"/></stop>
+    <stop offset="45%" stop-color="#0e7490"><animate attributeName="stop-color" values="#0e7490;#2563eb;#0e7490" dur="8s" repeatCount="indefinite"/></stop>
+    <stop offset="100%" stop-color="#7c3aed"><animate attributeName="stop-color" values="#7c3aed;#4f46e5;#7c3aed" dur="8s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="320" rx="30" fill="url(#g)"/>
+<g opacity=".42" stroke="#67e8f9" fill="none">
+  <path d="M0 255 C220 180 360 330 590 230 S930 150 1200 230" stroke-width="2"><animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 255 C220 180 360 330 590 230 S930 150 1200 230;M0 220 C220 300 360 170 590 250 S930 300 1200 200;M0 255 C220 180 360 330 590 230 S930 150 1200 230"/></path>
+  <path d="M0 275 C180 230 410 290 600 260 S960 215 1200 270" stroke-width="1.4"><animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 275 C180 230 410 290 600 260 S960 215 1200 270;M0 250 C180 310 410 205 600 280 S960 185 1200 245;M0 275 C180 230 410 290 600 260 S960 215 1200 270"/></path>
+</g>
+<g fill="#ffffff">
+ <circle cx="110" cy="72" r="4"><animate attributeName="cy" values="72;52;72" dur="3s" repeatCount="indefinite"/></circle>
+ <circle cx="1040" cy="68" r="5" fill="#c084fc"><animate attributeName="cx" values="1040;1015;1040" dur="4s" repeatCount="indefinite"/></circle>
+ <circle cx="975" cy="250" r="5" fill="#34d399"><animate attributeName="cy" values="250;225;250" dur="3.7s" repeatCount="indefinite"/></circle>
+</g>
+<text x="600" y="110" fill="#fff" font-size="54" font-weight="800" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" filter="url(#glow)">MUHAMMAD JUNAID HASSAN</text>
+<text x="600" y="154" fill="#67e8f9" font-size="20" font-weight="600" text-anchor="middle" font-family="Consolas,monospace">BSCS STUDENT • DEVELOPER • BUILDER</text>
+<text x="600" y="202" fill="#fff" font-size="28" font-weight="700" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif">Building JuniCore 🚀</text>
+<text x="600" y="238" fill="#cbd5e1" font-size="17" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif">React • Node.js • AI Automation • Future Cyber Security</text>
+<text x="600" y="283" fill="#e2e8f0" font-size="15" text-anchor="middle" font-family="Consolas,monospace">dream(); learn(); build(); improve(); repeat();</text>
+</svg>
